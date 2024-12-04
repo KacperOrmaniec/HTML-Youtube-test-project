@@ -24,8 +24,6 @@
   column-gap: 20px;
   row-gap: 40px;
 }
-.div-video-container{
-}
 .video-info-grid{
   display: grid;
   grid-template-columns: 60px 1fr;
