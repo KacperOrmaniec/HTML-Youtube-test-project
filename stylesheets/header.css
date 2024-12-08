@@ -1,0 +1,124 @@
+.header-flexbox{
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  height: 55px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(221, 220, 220);
+
+  z-index: 1;
+}
+.left-section{
+  display: flex;
+  align-items: center;
+}
+.middle-section{
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+}
+.right-section{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.search-bar{
+  flex: 1;
+  width: 0px;
+  height: 36px;
+  font-size: large;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(195, 194, 194);
+  border-radius: 2px ;
+  box-shadow: inset 1px 2px 3px rgb(0, 0, 0, 0.05);
+}
+.search-bar::placeholder{
+  padding-left: 8px;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(195, 194, 194);
+  font-family: Roboto, Arial;
+}
+.hamburger-menu{
+  height: 24px;
+  margin-left: 20px;
+}
+.youtube-logo{
+  width: 100px;
+  height: 22px;
+  margin-left: 24px;
+}
+.search-button{
+  height: 40px;
+  width: 60px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(195, 194, 194);
+  background-color: rgb(242, 242, 242);
+  margin-left: -1px;
+  margin-right: 8px;
+  border-radius: 2px;
+}
+.search-icon{
+  margin-top: 4px;
+  height: 23px;
+
+}
+.voice-search-button{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(242, 242, 242);
+}
+.voice-search-icon{
+  margin-top: 4px;
+  height: 25px;
+}
+
+.upload-icon{
+  height: 24px;
+}
+.youtube-apps-icon{
+  height: 24px;
+}
+.notification-container{
+  position: relative;
+}
+.notifications-icon{
+  height: 24px;
+}
+.notification-count{
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  background-color: rgb(207, 18, 18);
+  color: white;
+  font-size: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-family: Roboto, Arial;
+  border-radius: 50%;
+}
+.user-icon{
+    border-radius: 50px;
+    height: 34px;
+    margin-right: 20px;
+}
+
