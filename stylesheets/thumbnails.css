@@ -1,5 +1,9 @@
   body{
     margin: 0px;
+    background-color: whitesmoke;
+    padding-top: 90px;
+    padding-left: 95px;
+    height: 300000px;
   }
 
   p{
@@ -16,11 +20,20 @@
 
 }
 .header-flexbox{
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  height: 55px;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
-  margin-top: 10px
+
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(221, 220, 220);
 }
 .left-section{
   display: flex;
@@ -141,4 +154,20 @@
     border-radius: 50px;
     height: 34px;
     margin-right: 20px;
+}
+
+
+
+.sidebar-flexbox{
+  display: flex;    
+  vertical-align: column;
+  position: fixed;
+  top: 55px;
+  left: 0;
+  width: 75px;
+  height: 100%;
+  background-color: rgb(98, 23, 23);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: rgb(221, 220, 220);
 }
