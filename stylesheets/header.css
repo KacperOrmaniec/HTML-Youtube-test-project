@@ -72,6 +72,8 @@
   margin-left: -1px;
   margin-right: 8px;
   border-radius: 2px;
+
+  position:relative
 }
 .search-icon{
   margin-top: 4px;
@@ -122,3 +124,12 @@
     margin-right: 20px;
 }
 
+.upload-icon:hover,
+.voice-search-button:hover,
+.youtube-apps-icon:hover,
+.notifications-icon:hover
+.voice-search-button:hover,
+.search-button:hover,
+.user-icon:hover{  
+  cursor: pointer;
+}
