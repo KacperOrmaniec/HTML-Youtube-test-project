@@ -7,11 +7,22 @@
 .thumbnail-row{
   position: relative;
 }
+
 .video-container-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 20px;
   row-gap: 36px;
+}
+@media (max-width: 1000px){
+  .video-container-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1500px){
+  .video-container-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 .video-info-grid{
   display: grid;
