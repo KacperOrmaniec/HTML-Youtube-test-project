@@ -60,3 +60,10 @@
   font-family: Roboto, Arial;
   border-radius: 1px;
 }
+
+.video-author:hover, 
+.video-title:hover,
+.channel-icon:hover,
+.thumbnails:hover{
+  cursor: pointer;
+}
