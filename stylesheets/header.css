@@ -130,6 +130,8 @@
 .notifications-icon:hover
 .voice-search-button:hover,
 .search-button:hover,
-.user-icon:hover{  
+.user-icon:hover,
+.youtube-logo:hover,
+.hamburger-menu:hover{  
   cursor: pointer;
 }
